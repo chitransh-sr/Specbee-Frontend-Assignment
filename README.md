@@ -38,7 +38,7 @@ This project focuses on the Speaker Carousel, a feature designed to display even
 
 *Mobile Screen Size Screenshots:
 
-![Mobile Screens](image-5.png)
-![Mobile Screens](image-6.png)
-![Mobile Screens](image-7.png)
-![Mobile Screens](image-8.png)
+![Mobile Screens](Readme-Screenshots/image-5.png)
+![Mobile Screens](Readme-Screenshots/image-6.png)
+![Mobile Screens](Readme-Screenshots/image-7.png)
+![Mobile Screens](Readme-Screenshots/image-8.png)
