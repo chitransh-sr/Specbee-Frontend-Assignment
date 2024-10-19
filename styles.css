@@ -413,7 +413,7 @@ p{
 
 @media (max-width: 320px) {
     .head{
-        margin-left: 12%;
+        margin-left: 0;
     }
 
     .carousel {
@@ -422,7 +422,7 @@ p{
     }
 
     .next-arrow {
-        left: 48px;
+        left: -20px;
     }
 
     .prev-arrow {
@@ -439,6 +439,20 @@ p{
         left: 90px;
     }
     .program__button{
-        left: 30%;
+        left: 20% !important;
+    }
+}
+@media (max-width: 375px){
+    .program__button{
+        left: 24%;
+        bottom: 74px;
+    }
+    .program__info{
+        left: 14%;
+        top: 85px;
+    }
+    .arrow-icon{
+        top: 70px;
+        left: 70px;
     }
 }
