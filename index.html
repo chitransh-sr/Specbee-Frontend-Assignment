@@ -50,7 +50,7 @@
                     </a>
                 </div>
                 <div class=speaker__divider>
-                    <img src="./images/line.png" alt="Line"  class="line"/>
+                    <img src="./images/line.png" alt="Line" class="line" />
                     <img src="./images/horizontal-line.png" alt="horizontal-line" class="h-line" />
                 </div>
                 <div class="speaker-description">
@@ -65,6 +65,10 @@
             </div>
         </section>
         <div id="carouselExample" class="carousel slide">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <img src="./images/prev-arrow.png" alt="enabled-navigation" class="prev-arrow" />
+                <span class="visually-hidden">Previous</span>
+            </button>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <section class="cards">
@@ -113,8 +117,8 @@
                             <div class="avatar"><img src="./images/avatar1.png" alt="John Doe" /></div>
                             <p class="card__name">John Doe</p>
                             <div>
-                            <p class="card__post">Chief Marketing Officer</p>
-                            <div class="card__company">Acme Corp</div>
+                                <p class="card__post">Chief Marketing Officer</p>
+                                <div class="card__company">Acme Corp</div>
                             </div>
                         </div>
                         <div class="card" data-avatar="./images/avatar2.png" data-name="John Smith"
@@ -122,8 +126,8 @@
                             <div class="avatar"><img src="./images/avatar2.png" alt="John Smith" /></div>
                             <p class="card__name">John Smith</p>
                             <div>
-                            <p class="card__post">Chief Engagement Officer</p>
-                            <p class="card__company">Acquia</p>
+                                <p class="card__post">Chief Engagement Officer</p>
+                                <p class="card__company">Acquia</p>
                             </div>
                         </div>
                         <div class="card" data-avatar="./images/avatar3.png" data-name="John Williams"
@@ -131,8 +135,8 @@
                             <div class="avatar"><img src="./images/avatar3.png" alt="John Williams" /></div>
                             <p class="card__name">John Williams</p>
                             <div>
-                            <p class="card__post">Chief Technical Officer</p>
-                            <p class="card__company">Pantheon</p>
+                                <p class="card__post">Chief Technical Officer</p>
+                                <p class="card__company">Pantheon</p>
                             </div>
                         </div>
                         <div class="card" data-avatar="./images/avatar4.png" data-name="John Snow"
@@ -140,17 +144,14 @@
                             <div class="avatar"><img src="./images/avatar4.png" alt="John Snow" /></div>
                             <p class="card__name">John Snow</p>
                             <div>
-                            <p class="card__post">Chief Marketing Officer</p>
-                            <p class="card__company">Specbee</p>
+                                <p class="card__post">Chief Marketing Officer</p>
+                                <p class="card__company">Specbee</p>
                             </div>
                         </div>
                     </section>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <img src="./images/prev-arrow.png" alt="enabled-navigation" class="prev-arrow" />
-                <span class="visually-hidden">Previous</span>
-            </button>
+
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
                 <img src="./images/enabled-navigation.png" alt="enabled-navigation" class="next-arrow" />
                 <span class="visually-hidden">Next</span>
@@ -160,8 +161,10 @@
 
 
         <section class="program">
-            <div class="program__info">Click here to see the full program</div>
-            <img src="./images/arrow.png" class="arrow-icon" alt="Arrow Icon" />
+            <div class="program__box">
+                <div class="program__info">Click here to see the full program</div>
+                <img src="./images/arrow.png" class="arrow-icon" alt="Arrow Icon" />
+            </div>
             <button class="program__button">
                 <span class="program__button-text">See the Program</span>
             </button>
